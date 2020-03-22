@@ -1,4 +1,4 @@
- Settings in the [build] context are global and are applied to all contexts
+ #Settings in the [build] context are global and are applied to all contexts
 # unless otherwise overridden by more specific contexts.
 [build]
   # Directory to change to before starting a build.
@@ -11,7 +11,7 @@
   publish = "project/build-output/"
 
   ignore = "git diff --quiet HEAD^ HEAD sub_dir/"
-  
+
   # Default build command.
   command = "echo 'default context'"
 

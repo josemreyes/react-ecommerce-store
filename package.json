@@ -2,6 +2,9 @@
   "name": "ecommerce-store-app",
   "version": "0.1.0",
   "private": false,
+  "plugins": [
+    "@babel/plugin-proposal-numeric-separator"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
